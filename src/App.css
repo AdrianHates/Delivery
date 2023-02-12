@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root {
+  --pri-r: red;
+  --w: #fff;
+  --r: #d60000;
+  --n: #1c1c1c;
+  --g: #bdbdbd
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: var(--w);
+}
+
+#header1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+  
+}
+
+#logo {
+  width: 10%;
+  height: 10%;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#vincRed {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 1rem
 }
 
-.App-link {
-  color: #61dafb;
+#vinculos {
+  display: flex;
+  gap: 1rem
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#vinculos > a {
+  text-decoration: none;
+  color: var(--n);
+  font-weight: 600;
+  font-size: 1.3rem
 }
+
+#vinculos > a:hover {
+  color: var(--pri-r)
+}
+
+#redes {
+  display: flex;
+  gap: 2.5rem;
+  color: var(--r);
+  margin-right: 2.5rem
+}
+
+#redes i {
+  font-size: 1.3rem;
+  transition: transform .3s;
+}
+
+#redes i:hover {
+  transform: scale(1.2)
+}
+
+.d-block {
+  height: 800px;
+  object-fit: cover;
+  filter: blur(3px);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./imgs/fondo.jpg');
+  background-size: cover
+}
+
+#container1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 0 1rem;
+  margin: 4rem 0;
+  justify-content: center;
+}
+
+#container1 > div > img {
+  object-fit: cover;
+  height: 12.5rem;
+  width: 100%;
+}
+
+#container2 {
+  margin: 4rem auto;
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 30%));
+}
+
+#container2 > div {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+#container2 > div > img {
+  height: 15rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+#container2 > div > div {
+  display: flex;
+}
+
+#container2 > div > div > img {
+  width: 27%;
+  height: 36%;
+  margin: 1.5rem;
+}
+
+#container2 > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
