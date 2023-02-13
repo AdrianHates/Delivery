@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import carro from '../imgs/mercedes.png'
 
 function FormCalulator() {
-  
+  const [valor, setValor] = useState(0)
   return(
     <div id='calculador'>
       <div id='calculador1'>
@@ -29,7 +29,7 @@ function FormCalulator() {
       </div>
       <div>
         <label for="distancia">Distancia (km) </label>
-        <input tabindex='-1' id='distancia' type='range' min='0' max='100' />
+        <input onChange={(event) => setValor(event.target.value)} tabindex='-1' value={valor} id='distancia' type='range' min='0' max='100' />
       </div>
       <div>
         <label for="servicio">Tipo de servicio </label>
