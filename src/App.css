@@ -5,7 +5,8 @@
   --w: #fff;
   --r: #d60000;
   --n: #1c1c1c;
-  --g: #bdbdbd
+  --g: #bdbdbd;
+  --footer: #084274
 }
 
 * {
@@ -18,7 +19,12 @@
   display: flex;
   flex-direction: column;
   background-color: var(--w);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
+
 
 #header1 {
   display: flex;
@@ -28,12 +34,16 @@
 }
 
 #logo {
-  width: 10%;
-  height: 10%;
+  width: 20rem;
+  height: 7.5rem;
+  overflow: hidden;
 }
 
 #logo img {
-  width: 100%;
+  margin-left: 5rem;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #vincRed {
@@ -90,6 +100,16 @@
   background-size: cover
 }
 
+#container-title {
+  margin: 5rem 0rem auto;
+  font-size: 2rem;
+}
+
+#container-description {
+  font-size: 3.3rem;
+  color: red
+}
+
 #container1 {
   display: grid;
   width: 100%;
@@ -143,3 +163,100 @@
   margin: 1rem auto;
 }
 
+#calculador {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+#calculador1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#calculador1 > h6, #calculador > h1 {
+  margin: 0 2rem;
+}
+
+#calculador1 > form {
+  display: flex;
+  flex-direction: column;
+}
+
+#calculador1 > form > div > label {
+  width: 20%;
+  margin: 1.5rem 2rem
+}
+
+#calculador1 > form > div > input {
+  width: 70%;
+  height: 2.5rem;
+}
+
+#seguro {
+  display: flex;
+}
+
+#seguro > p {
+  width: 20%;
+  margin: 1.5rem 2rem
+}
+
+#seguro > div {
+  width: 70%;
+  margin: 1.5rem 0rem;
+}
+
+#total {
+  display: flex;
+  width: 94%;
+  margin-left: 2rem;
+  background-color: var(--r);
+  color: var(--w);
+  justify-content: flex-end;
+  gap: 3rem;
+  padding-right: 3rem;
+}
+
+#calculador2 {
+  width: 25rem;
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#calculador2 > img {
+  width: 100%;
+  background-color: white;
+}
+
+#calculador2 > i {
+  margin: 0 auto;
+  font-size: 4rem;
+}
+
+#calculador2 > a {
+  font-weight: 900;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  background-color: var(--footer);
+}
+
+#copyright {
+  color: var(--w)
+}
+
+#final {
+  display: flex;
+  gap: 1rem
+}
+
+footer > #final > a {
+  text-decoration: none;
+  color: var(--pri-r);
+}

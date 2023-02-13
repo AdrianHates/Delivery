@@ -11,8 +11,8 @@ import contenedor from '../imgs/contenedor.jpg'
 function FortVent() {
   return(
     <div id='container'>
-      <div>Porque nos deberias elegir?</div>
-      <div>NUESTRAS FORTALEZAS Y VENTAJAS</div>
+      <div id='container-title'>Porque nos deberias elegir?</div>
+      <div id='container-description'>NUESTRAS FORTALEZAS Y VENTAJAS</div>
       <div id='container1'>
         <div>
           <img src={entrega} alt='entrega' />
@@ -40,7 +40,7 @@ function FortVent() {
         </div>
       </div>
       <div id='separador'>
-        <img src='https://cargo.bold-themes.com/delivery-express/wp-content/uploads/sites/3/2015/09/truck-vignette-gray.png' />
+        <img src='https://cargo.bold-themes.com/delivery-express/wp-content/uploads/sites/3/2015/09/truck-vignette-gray.png' alt='carrito' />
       </div>
       <div id='container2'>
         <div>
