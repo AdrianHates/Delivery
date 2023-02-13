@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Delivery/static/css/main.13b394f4.css",
+    "main.js": "/Delivery/static/js/main.985cd3ef.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Delivery/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fondo.jpg": "/Delivery/static/media/fondo.8314a07bd6fb123e1f1e.jpg",
+    "static/media/elemento3.jpg": "/Delivery/static/media/elemento3.05a25f38ea549caeb4f8.jpg",
+    "static/media/mercedes.png": "/Delivery/static/media/mercedes.e37304a4fe1a305ee586.png",
+    "static/media/logistica.jpg": "/Delivery/static/media/logistica.a4ef07aef9365a128434.jpg",
+    "static/media/contenedor.jpg": "/Delivery/static/media/contenedor.014c222c4478e6e8d600.jpg",
+    "static/media/elemento2.jpg": "/Delivery/static/media/elemento2.f68e4c7e14b536a8eb64.jpg",
+    "static/media/intercambio.jpg": "/Delivery/static/media/intercambio.5661441a1c7b1c9708f8.jpg",
+    "static/media/elemento1.jpg": "/Delivery/static/media/elemento1.05e9c19dcbab4314e574.jpg",
+    "static/media/entrega.jpg": "/Delivery/static/media/entrega.05e9c19dcbab4314e574.jpg",
+    "static/media/embalar.jpg": "/Delivery/static/media/embalar.40c198b434210ade247e.jpg",
+    "static/media/mensajero.jpg": "/Delivery/static/media/mensajero.457fad1ffcb0fd125872.jpg",
+    "static/media/viaje.svg": "/Delivery/static/media/viaje.f5c0ee3fbb22a8922efb2a3364c3d98b.svg",
+    "static/media/call.svg": "/Delivery/static/media/call.200d31d7198d6be88007a0be5af82349.svg",
+    "static/media/telefono.svg": "/Delivery/static/media/telefono.1743ac43598d37698a993d489ed91f1b.svg",
+    "index.html": "/Delivery/index.html",
+    "main.13b394f4.css.map": "/Delivery/static/css/main.13b394f4.css.map",
+    "main.985cd3ef.js.map": "/Delivery/static/js/main.985cd3ef.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Delivery/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13b394f4.css",
+    "static/js/main.985cd3ef.js"
+  ]
+}
