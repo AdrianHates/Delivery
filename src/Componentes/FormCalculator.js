@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import carro from '../imgs/mercedes.png'
 
 function FormCalulator() {
@@ -50,8 +50,7 @@ function FormCalulator() {
       <i class="bi bi-question-lg"></i>
       <p>¿Todavía no estás seguro de cuánto te costaría?</p>
       <p>¡Abre la lista completa de<br />calculadoras extendidas!</p>
-      <h1></h1>
-      <a>TODAS LAS CALCULADORAS</a>
+      <a href='/'>TODAS LAS CALCULADORAS</a>
     </div>
     </div>
   )

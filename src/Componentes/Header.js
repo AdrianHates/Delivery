@@ -11,9 +11,9 @@ function Header() {
         <div id='vincRed'>          
           <div id='vinculos'>
             <a href='/'>Inicio</a>
-            <a href=''>Secciones</a>
-            <a href=''>Novedades</a>
-            <a href=''>Cotizacion</a>
+            <a href='/'>Secciones</a>
+            <a href='/'>Novedades</a>
+            <a href='/'>Cotizacion</a>
           </div>
           <div id='redes'>            
             <i class="bi bi-search"></i>
