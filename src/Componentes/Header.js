@@ -1,4 +1,3 @@
-import React from 'react';
 import img from '../imgs/imagen1.jpg';
 
 function Header() {

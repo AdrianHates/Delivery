@@ -1,4 +1,3 @@
-import React from 'react';
 import telefono from '../imgs/svg/telefono.svg'
 import viaje from '../imgs/svg/viaje.svg'
 import call from '../imgs/svg/call.svg'

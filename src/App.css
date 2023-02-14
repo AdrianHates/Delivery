@@ -18,6 +18,7 @@
 #header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: var(--w);
   width: 100%;
   position: fixed;
@@ -36,7 +37,6 @@
 #logo {
   width: 20rem;
   height: 7.5rem;
-  overflow: hidden;
 }
 
 #logo img {

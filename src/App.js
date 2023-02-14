@@ -6,10 +6,25 @@ import elemento1 from './imgs/elemento1.jpg'
 import elemento2 from './imgs/elemento2.jpg'
 import elemento3 from './imgs/elemento3.jpg'
 import FormCalulator from './Componentes/FormCalculator';
+import React, { useEffect } from 'react';
 
 const elementos = [elemento1, elemento2, elemento3]
 
 function Web() {
+
+  useEffect(()=>{
+    let a = document.getElementById('header')
+    document.addEventListener('scroll', (event)=>{
+      if(window.scrollY > 50) {
+        a.style.opacity='0.9'
+        a.style.height='7.5rem'
+      } else {
+        a.style.opacity='1'
+        a.style.height='9.5rem'
+      }
+    })
+  },[])
+
   return (
     <div className="web">
       <Header />
